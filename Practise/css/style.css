@@ -1,0 +1,65 @@
+.banner {
+    background-image: url('../images/banner.jpg');
+    height: 350px;
+    background-position: center
+}
+
+.banner .heading {
+    text-align: left;
+    padding: 100px 50px;
+    text-transform: uppercase;
+    color: #272882
+}
+
+.banner .heading h1 {
+    font-weight: 700;
+    font-size: 45pt;
+}
+
+.codegym-logo {
+    height: 40px;
+}
+
+.codegym-intro {    
+    color: white;
+    padding: 15px
+}
+
+.codegym-intro .col-md-3, .codegym-intro .col-md-9 {
+    padding: 20px;
+    background-color: #404040;
+}
+
+.codegym-intro img {
+    width: 100%;
+}
+
+.title {
+    padding-top: 20px;
+    padding-bottom: 10px
+}
+
+.footer {
+    background-color: #272882;
+    padding: 20px;
+    margin-top: 20px
+}
+
+.footer h4, .footer a {
+    color: white
+}
+
+.footer ul {
+    list-style: none;
+    padding: 0
+}
+
+ .gallery img {
+     width: 100%;
+     transition: transform .5s; /* Animation */
+ }
+
+ 
+ .gallery img:hover {
+    transform: scale(1.02);
+ }

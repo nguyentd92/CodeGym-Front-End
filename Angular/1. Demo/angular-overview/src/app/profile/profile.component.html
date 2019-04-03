@@ -1,0 +1,49 @@
+<h2>Profile</h2>
+<table>
+  <tr>
+    <th>Name</th>
+    <td><input type="text" [(ngModel)]="name"></td>
+  </tr>
+  <tr>
+    <th>DOB</th>
+    <td><input type="date" [(ngModel)]="dob"></td>
+  </tr>
+  <tr>
+    <th>Email</th>
+    <td><input type="Email" [(ngModel)]="email"></td>
+  </tr>
+  <tr>
+    <th>Sex</th>
+    <td><input type="checkbox" [(ngModel)]="sex">Male/Female</td>
+  </tr>  
+  <tr>
+    <th></th>
+    <td><button (click)="render()">Submit</button></td>
+  </tr>
+</table>
+<div class="result">
+  {{ result }}
+<!--   
+<table>
+  <tr>
+    <th>Name</th>
+    <td>{{ name }}</td>
+  </tr>
+  <tr>
+    <th>DOB</th>
+    <td>{{ dob }}</td>
+  </tr>
+  <tr>
+    <th>Email</th>
+    <td>{{ email }}</td>
+  </tr>
+  <tr>
+    <th>Sex</th>
+    <td>{{ sex ? 'Male' : 'Female'}}</td>
+  </tr>  
+  <tr>
+    <th></th>
+    <td><button (click)="render()">Submit</button></td>
+  </tr>
+</table> -->
+</div>
