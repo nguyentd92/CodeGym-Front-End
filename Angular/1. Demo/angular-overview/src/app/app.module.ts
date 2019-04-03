@@ -6,13 +6,15 @@ import { ProfileComponent } from './profile/profile.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { FormsModule } from '@angular/forms';
 import { FontSizeEditorComponent } from './font-size-editor/font-size-editor.component';
+import { PetComponent } from './pet/pet.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ProfileComponent,
     CalculatorComponent,
-    FontSizeEditorComponent
+    FontSizeEditorComponent,
+    PetComponent
   ],
   imports: [
     BrowserModule,

@@ -22,6 +22,5 @@ export class ProfileComponent implements OnInit {
     let sex = this.sex ? 'Male' : 'Femail';
     this.result = `
     Name: ${this.name}.DOB: ${this.dob}.Email: ${this.email}Sex: ${this.sex ? 'Male' : 'Female'}`;
-    
   }
 }
