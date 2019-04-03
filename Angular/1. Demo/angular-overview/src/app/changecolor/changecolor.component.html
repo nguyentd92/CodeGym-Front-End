@@ -1,0 +1,5 @@
+<h2>Change Color</h2>
+
+<label for="">Color: <input type="color" [value]="background" (change)="fillColor($event.target.value)"></label>
+
+<div class="color-preview" [style.background]="background"></div>
